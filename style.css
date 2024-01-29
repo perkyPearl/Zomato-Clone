@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-size: 18px;
+    padding: 10px 10px 0px 0px;
+}
+
+.banner{
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("Images/Banner.webp");
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    height: 60px;
+    align-items: center;
+}
+
+.banner-container a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.banner-title{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo{
+    margin: auto;
+    height: 50px;
+    padding-top: 30px;
+}
+
+.banner-title span{
+    color: white;
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+}
+
+.search-container{
+    margin: auto;
+    width: max-content;
+    background-color: white;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+}
+
+.search-container select{
+    border: none;
+    width: 150px;
+    padding: 4px;
+}
+
+.search-container input{
+    border: none;
+    width: 600px;
+    height: 50px;
+}
+
+.search-container input:focus-visible, form input:focus-visible{
+    outline: none;
+}
+
+#search-icon{
+    width: 45px; 
+}
+
+#location-icon{
+    margin-left: 10px;
+    width: 20px;
+}
+
+.dish-card{
+    width: 70%;
+    border-radius: 12px;
+    margin: 12px;
+    border: 2px solid rgb(222, 222, 222);
+    transition: scale .5s;
+}
+
+.dish-card:hover{
+    scale: 1.05;
+}
+
+.dish-container{
+    padding: 15px;
+}
+
+.dish-container p{
+    margin-top: 5px;
+}
+
+.cards-container{
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+}
+
+#card-image{
+    width: 100%;
+    object-fit: cover;
+    height: 180px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.collections-container{
+    margin-top: 50px;
+    padding: 14px;
+}
+
+.collections-container span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.collections-container span a{
+    color: rgb(255, 158, 158);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.locality-container{
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.locality-cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.locality-card{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 2px solid rgb(219, 219, 219);
+    border-radius: 8px;
+    margin: 10px;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.locality-card:hover{
+    box-shadow: 5px 5px 5px rgb(216, 216, 216);
+}
+
+.locality-card span{
+    font-size: 20px;
+}
+
+.locality-card pre{
+    font-size: 14px;
+    padding-top: 18px;
+}
+
+.download-banner{
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 191, 168, 0.096);
+}
+
+form input[type=email]{
+    font-size: 15px;
+    padding: 8px;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-right: 5px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+form input[type=submit]{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 118, 118);
+    color: white;
+}
+
+form *{
+    margin: 12px 0px;
+}
+
+footer{
+    background-color: rgb(240, 240, 240);
+    padding: 50px;
+    display: flex;
+    margin: auto;
+}
+
+.footer-container{
+    width: 80%;
+    margin: auto;
+}
+
+.footer-links{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    margin: 5px 0px 50px 0px;
+}
+
+.option-container{
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 35px;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.social-images .flex img{
+    height: 20px;
+    margin: 5px;
+    mix-blend-mode: multiply;
+}
+
+footer p{
+    font-size: 12px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+    font-size: 14px;
+}
